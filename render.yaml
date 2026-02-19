@@ -11,8 +11,10 @@ services:
       - key: NODE_VERSION
         value: 24
       - key: PORT
-        value: 4000
+        value: 10000
       - key: MONGODB_URI
+        sync: false
+      - key: MONGO_URI
         sync: false
       - key: JWT_SECRET
         sync: false
