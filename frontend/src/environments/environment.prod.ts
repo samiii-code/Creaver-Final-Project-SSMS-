@@ -1,7 +1,7 @@
 export const environment = {
   production: true,
-  // For production, use same-origin API by default. Replace with your backend URL if hosted separately.
-  // Example: 'https://your-backend.onrender.com'
-  apiBaseUrl: '/api',
+  // Production API base set to deployed backend on Render.
+  // If you later host frontend and backend on same origin, change to '/api'.
+  apiBaseUrl: 'https://creaver-school-management-system-g4to.onrender.com',
 };
 
