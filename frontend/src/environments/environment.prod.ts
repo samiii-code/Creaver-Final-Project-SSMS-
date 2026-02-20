@@ -1,6 +1,7 @@
 export const environment = {
   production: true,
-  // Set this to your deployed backend URL (e.g. https://your-backend.onrender.com)
-  apiBaseUrl: 'http://localhost:4000',
+  // For production, use same-origin API by default. Replace with your backend URL if hosted separately.
+  // Example: 'https://your-backend.onrender.com'
+  apiBaseUrl: '/api',
 };
 

@@ -31,7 +31,7 @@ import { AuthService } from '../../core/services/auth.service';
           </svg>
         </div>
 
-        <h1 class="title">Ks Academy</h1>
+        <h1 class="title">Creaver Academy</h1>
         <p class="subtitle">Sign in to your portal</p>
 
         <form [formGroup]="form" (ngSubmit)="onSubmit()" class="form">
