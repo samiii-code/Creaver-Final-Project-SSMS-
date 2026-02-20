@@ -2,7 +2,7 @@ services:
   - type: web
     name: mean-school-backend
     env: node
-    rootDir: backend
+    root: backend
     plan: free
     buildCommand: npm ci --include=dev && npm run build
     startCommand: npm run start
